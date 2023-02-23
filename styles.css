@@ -29,10 +29,14 @@ p {
 
 .first-section {
     background-color: #1f2937;
-    padding-top: 36px;
+    padding-top: 24px;
     padding-bottom: 60px;
     padding-left: 200px;
     padding-right: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 .logo {
@@ -64,9 +68,11 @@ p {
 /* Posicionamento */
 
 .container1 {
+    max-width: 1000px;
     display: flex;
     flex: auto;
     flex-direction: column;
+    gap: 24px;
 }
 
 .header {
@@ -74,6 +80,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 32px;
 }
 
 .links {
@@ -86,6 +94,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .hero-left {
@@ -93,6 +102,7 @@ p {
     min-height: auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 8px;
 }
 
 .image-holder {
@@ -102,5 +112,4 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
